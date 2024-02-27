@@ -243,3 +243,13 @@ p{
         margin: 1rem;
     }
 }
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+a:hover{
+    text-decoration: underline;
+    transition: .4s;
+}
