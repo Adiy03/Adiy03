@@ -253,3 +253,22 @@ a:hover{
     text-decoration: underline;
     transition: .4s;
 }
+
+.skills{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.skills .box{
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    height: 2rem;
+    margin: 10px;
+    border: 1px solid gray;
+    padding: 0 5px;
+    font-size: 12px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
